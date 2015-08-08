@@ -10,4 +10,10 @@
 
 @implementation PlayingCard
 
+- (NSString *)contents
+{
+    NSArray *rankStrings = @[@"?",@"A",@"2",@"3",...,@"10",@"J",@"Q",@"K"];
+    return [rankStrings[self.rank] stringByAppendingString:self.suit];
+}
+
 @end
