@@ -14,6 +14,12 @@
 
 @implementation Card
 
+- (int)match:(Card *)card
+{
+    int score = 0;
+    return score;
+}
+
 @synthesize contents = _contents;
 
 - (NSString *)contents
@@ -29,7 +35,7 @@
 @synthesize chosen = _chosen;
 @synthesize matched = _matched;
 
-- (BOOL)chosen
+- (BOOL)isChosen
 {
     return _chosen;
 }
@@ -39,7 +45,7 @@
     _chosen = chosen;
 }
 
-- (BOOL)matched
+- (BOOL)isMatched
 {
     return _matched;
 }
