@@ -14,9 +14,16 @@
 
 @implementation Card
 
-- (int)match:(Card *)card
+- (int)match:(NSArray *)otherCard
 {
     int score = 0;
+    
+    for (Card *card in otherCard) {
+        if ([card.contents isEqualToString:self.contents]) {
+            score = 1;
+        }
+    }
+    
     return score;
 }
 
