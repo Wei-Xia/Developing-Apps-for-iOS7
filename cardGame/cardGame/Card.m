@@ -8,6 +8,22 @@
 
 #import "Card.h"
 
+@interface Card()
+
+@end
+
 @implementation Card
+
+@synthesize contents = _contents;
+
+- (NSString *)contents
+{
+    return _contents;
+}
+
+- (void)setContents:(NSString *)contents
+{
+    _contents = contents;
+}
 
 @end
