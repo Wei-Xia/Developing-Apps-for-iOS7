@@ -11,6 +11,7 @@
 		B63AB1E61B74603900CA8016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AB1E51B74603900CA8016 /* main.m */; };
 		B63AB1EA1B74603900CA8016 /* cardGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B63AB1E91B74603900CA8016 /* cardGame.1 */; };
 		B63AB1F21B7461DF00CA8016 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AB1F11B7461DF00CA8016 /* Card.m */; };
+		B6F98D351B76886E0072080C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F98D341B76886E0072080C /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		B63AB1E91B74603900CA8016 /* cardGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cardGame.1; sourceTree = "<group>"; };
 		B63AB1F01B7461DF00CA8016 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		B63AB1F11B7461DF00CA8016 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		B6F98D331B76886E0072080C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		B6F98D341B76886E0072080C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				B63AB1E81B74603900CA8016 /* cardGame-Prefix.pch */,
+				B6F98D331B76886E0072080C /* Deck.h */,
+				B6F98D341B76886E0072080C /* Deck.m */,
 				B63AB1F01B7461DF00CA8016 /* Card.h */,
 				B63AB1F11B7461DF00CA8016 /* Card.m */,
 			);
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63AB1E61B74603900CA8016 /* main.m in Sources */,
+				B6F98D351B76886E0072080C /* Deck.m in Sources */,
 				B63AB1F21B7461DF00CA8016 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +265,7 @@
 				B63AB1EF1B74603900CA8016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
