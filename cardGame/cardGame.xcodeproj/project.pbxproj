@@ -11,6 +11,7 @@
 		B63AB1E61B74603900CA8016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AB1E51B74603900CA8016 /* main.m */; };
 		B63AB1EA1B74603900CA8016 /* cardGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B63AB1E91B74603900CA8016 /* cardGame.1 */; };
 		B63AB1F21B7461DF00CA8016 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AB1F11B7461DF00CA8016 /* Card.m */; };
+		B63B8A391B76B3C500491717 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B8A381B76B3C500491717 /* PlayingCard.m */; };
 		B6F98D351B76886E0072080C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F98D341B76886E0072080C /* Deck.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		B63AB1E91B74603900CA8016 /* cardGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cardGame.1; sourceTree = "<group>"; };
 		B63AB1F01B7461DF00CA8016 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		B63AB1F11B7461DF00CA8016 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		B63B8A371B76B3C500491717 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		B63B8A381B76B3C500491717 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		B6F98D331B76886E0072080C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		B6F98D341B76886E0072080C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +97,8 @@
 				B6F98D341B76886E0072080C /* Deck.m */,
 				B63AB1F01B7461DF00CA8016 /* Card.h */,
 				B63AB1F11B7461DF00CA8016 /* Card.m */,
+				B63B8A371B76B3C500491717 /* PlayingCard.h */,
+				B63B8A381B76B3C500491717 /* PlayingCard.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				B63AB1E61B74603900CA8016 /* main.m in Sources */,
 				B6F98D351B76886E0072080C /* Deck.m in Sources */,
+				B63B8A391B76B3C500491717 /* PlayingCard.m in Sources */,
 				B63AB1F21B7461DF00CA8016 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
