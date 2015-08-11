@@ -24,6 +24,7 @@
 		B67C72951B79A57C00069FC6 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C72941B79A57C00069FC6 /* Card.m */; };
 		B67C729C1B79A69100069FC6 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C729B1B79A69100069FC6 /* PlayingCard.m */; };
 		B67C729F1B79A72B00069FC6 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C729E1B79A72B00069FC6 /* Deck.m */; };
+		B67C72A21B79A79600069FC6 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C72A11B79A79600069FC6 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		B67C729B1B79A69100069FC6 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		B67C729D1B79A72B00069FC6 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		B67C729E1B79A72B00069FC6 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		B67C72A01B79A79600069FC6 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		B67C72A11B79A79600069FC6 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				B67C72941B79A57C00069FC6 /* Card.m */,
 				B67C729D1B79A72B00069FC6 /* Deck.h */,
 				B67C729E1B79A72B00069FC6 /* Deck.m */,
+				B67C72A01B79A79600069FC6 /* PlayingCardDeck.h */,
+				B67C72A11B79A79600069FC6 /* PlayingCardDeck.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				B630F43B1B76C00E006DDFA4 /* CardGameViewController.m in Sources */,
 				B630F4311B76C00E006DDFA4 /* main.m in Sources */,
 				B67C729C1B79A69100069FC6 /* PlayingCard.m in Sources */,
+				B67C72A21B79A79600069FC6 /* PlayingCardDeck.m in Sources */,
 				B67C729F1B79A72B00069FC6 /* Deck.m in Sources */,
 				B67C72951B79A57C00069FC6 /* Card.m in Sources */,
 			);
