@@ -25,7 +25,7 @@
         UIImage *cardImage = [UIImage imageNamed:@"cardfront"];
         [sender setBackgroundImage:cardImage
                           forState:UIControlStateNormal];
-        [sender setTitle:@"" forState:UIControlStateNormal];
+        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
     }
     
 
