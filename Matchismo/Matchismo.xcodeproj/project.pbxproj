@@ -115,13 +115,10 @@
 		B630F42A1B76C00E006DDFA4 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				B630F4331B76C00E006DDFA4 /* CardGameAppDelegate.h */,
-				B630F4341B76C00E006DDFA4 /* CardGameAppDelegate.m */,
 				B630F4361B76C00E006DDFA4 /* Main.storyboard */,
-				B67C72931B79A57C00069FC6 /* Card.h */,
-				B67C72941B79A57C00069FC6 /* Card.m */,
 				B630F4391B76C00E006DDFA4 /* CardGameViewController.h */,
 				B630F43A1B76C00E006DDFA4 /* CardGameViewController.m */,
+				B67C72961B79A5A800069FC6 /* Model */,
 				B630F43C1B76C00E006DDFA4 /* Images.xcassets */,
 				B630F42B1B76C00E006DDFA4 /* Supporting Files */,
 			);
@@ -131,6 +128,8 @@
 		B630F42B1B76C00E006DDFA4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B630F4331B76C00E006DDFA4 /* CardGameAppDelegate.h */,
+				B630F4341B76C00E006DDFA4 /* CardGameAppDelegate.m */,
 				B630F42C1B76C00E006DDFA4 /* Matchismo-Info.plist */,
 				B630F42D1B76C00E006DDFA4 /* InfoPlist.strings */,
 				B630F4301B76C00E006DDFA4 /* main.m */,
@@ -155,6 +154,15 @@
 				B630F44C1B76C00E006DDFA4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B67C72961B79A5A800069FC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B67C72931B79A57C00069FC6 /* Card.h */,
+				B67C72941B79A57C00069FC6 /* Card.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
