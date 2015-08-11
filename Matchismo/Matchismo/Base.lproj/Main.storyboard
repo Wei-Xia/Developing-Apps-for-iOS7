@@ -40,6 +40,7 @@
                     </view>
                     <connections>
                         <outlet property="filpsLabel" destination="mt6-YM-R4m" id="jfP-jB-fBC"/>
+                        <outlet property="flipsLabel" destination="mt6-YM-R4m" id="rV2-BN-lDk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
